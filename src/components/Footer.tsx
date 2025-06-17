@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { BookOpen, Github, Twitter, Heart } from "lucide-react";
+import { BookOpen, Github, Instagram, X, Heart } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -52,11 +52,14 @@ const Footer = () => {
             Made with <Heart className="h-4 w-4 text-red-500 mx-1" /> by the CaptureRead team
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://github.com/Sidharth7082" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
               <Github className="h-5 w-5" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
-              <Twitter className="h-5 w-5" />
+            <a href="https://www.instagram.com/captureordie/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <Instagram className="h-5 w-5" />
+            </a>
+            <a href="https://x.com/captureordie04" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              <X className="h-5 w-5" />
             </a>
           </div>
         </div>
