@@ -113,15 +113,7 @@ const Download = () => {
                   <li>• 100MB storage space</li>
                 </ul>
               </div>
-              <div>
-                <h3 className="font-semibold mb-4">Desktop</h3>
-                <ul className="space-y-2 text-sm text-gray-600">
-                  <li>• Windows 10/11, macOS 10.14+, Linux (64-bit)</li>
-                  <li>• 4GB RAM minimum</li>
-                  <li>• 200MB storage space</li>
-                  <li>• Internet connection for sync features</li>
-                </ul>
-              </div>
+              
             </div>
           </CardContent>
         </Card>
