@@ -1,14 +1,11 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Download as DownloadIcon, Smartphone, Monitor, Github, Apple, Play } from "lucide-react";
-
 const Download = () => {
-  return (
-    <div className="min-h-screen bg-gray-50">
+  return <div className="min-h-screen bg-gray-50">
       <Header />
       
       <div className="container mx-auto px-4 py-12">
@@ -50,86 +47,14 @@ const Download = () => {
                 </Button>
               </div>
               
-              <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
-                <div className="flex items-center space-x-3">
-                  <div className="p-2 bg-gray-100 rounded">
-                    <Apple className="h-5 w-5 text-gray-600" />
-                  </div>
-                  <div>
-                    <div className="font-medium">iOS</div>
-                    <div className="text-sm text-gray-600">Version 2.1.0</div>
-                  </div>
-                </div>
-                <Button>
-                  <DownloadIcon className="mr-2 h-4 w-4" />
-                  Download
-                </Button>
-              </div>
+              
             </CardContent>
           </Card>
 
           {/* Desktop Downloads */}
           <Card className="border-0 shadow-lg">
-            <CardHeader className="text-center">
-              <div className="flex justify-center mb-4">
-                <div className="p-4 bg-purple-100 rounded-full">
-                  <Monitor className="h-8 w-8 text-purple-600" />
-                </div>
-              </div>
-              <CardTitle>Desktop Apps</CardTitle>
-              <CardDescription>
-                Download CaptureRead for your desktop computer
-              </CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
-                <div className="flex items-center space-x-3">
-                  <div className="p-2 bg-blue-100 rounded">
-                    <Monitor className="h-5 w-5 text-blue-600" />
-                  </div>
-                  <div>
-                    <div className="font-medium">Windows</div>
-                    <div className="text-sm text-gray-600">Version 2.1.0</div>
-                  </div>
-                </div>
-                <Button>
-                  <DownloadIcon className="mr-2 h-4 w-4" />
-                  Download
-                </Button>
-              </div>
-              
-              <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
-                <div className="flex items-center space-x-3">
-                  <div className="p-2 bg-gray-100 rounded">
-                    <Apple className="h-5 w-5 text-gray-600" />
-                  </div>
-                  <div>
-                    <div className="font-medium">macOS</div>
-                    <div className="text-sm text-gray-600">Version 2.1.0</div>
-                  </div>
-                </div>
-                <Button>
-                  <DownloadIcon className="mr-2 h-4 w-4" />
-                  Download
-                </Button>
-              </div>
-              
-              <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
-                <div className="flex items-center space-x-3">
-                  <div className="p-2 bg-orange-100 rounded">
-                    <Monitor className="h-5 w-5 text-orange-600" />
-                  </div>
-                  <div>
-                    <div className="font-medium">Linux</div>
-                    <div className="text-sm text-gray-600">Version 2.1.0</div>
-                  </div>
-                </div>
-                <Button>
-                  <DownloadIcon className="mr-2 h-4 w-4" />
-                  Download
-                </Button>
-              </div>
-            </CardContent>
+            
+            
           </Card>
         </div>
 
@@ -203,8 +128,6 @@ const Download = () => {
       </div>
       
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default Download;
