@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -13,6 +12,13 @@ const Download = () => {
       
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-12">
+          <div className="flex justify-center mb-6">
+            <img 
+              src="/lovable-uploads/e90ee8c8-3768-4c91-acd7-86694f818686.png" 
+              alt="CaptureRead App Icon" 
+              className="w-24 h-24 rounded-xl shadow-lg"
+            />
+          </div>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Download CaptureRead</h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Get CaptureRead on your preferred platform and start your enhanced reading journey today.
@@ -47,7 +53,7 @@ const Download = () => {
                 <Button asChild>
                   <a href="https://github.com/Sidharth7082/captureread-app/releases/download/v1.0/app-release.apk" target="_blank" rel="noopener noreferrer">
                     <DownloadIcon className="mr-2 h-4 w-4" />
-                    Download
+                    Download APK
                   </a>
                 </Button>
               </div>
